@@ -1,50 +1,168 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
-</head>
-<body>
-    
-    <!-- Header -->
-    <header class="header text-white text-center py-5">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>BlogForWhat</title>
+
+    </head>
+    <body>
+        <!-- 顶部栏 -->
         <div class="container">
-            <h1>欢迎来到我的个人主页</h1>
-            <p>探索我最新的项目和学习旅程</p>
+            <!-- 顶部栏左边 -->
+            <div class="top-style-left">
+                <!-- 左上logo且主页链接 -->
+                <a class="top-style-inner">
+                    BlogForWhat
+                </a>
+                <!-- 列表显示主要功能 -->
+                <ul class="top-style-inner">
+                    <li>
+                        <a>博客</a>
+                    </li>
+                    <li>
+                        <a>相册</a>
+                    </li>
+                    <li>
+                        <a>杂谈</a>
+                    </li>
+                    <li>
+                        <a>小工具</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 顶部栏中间 -->
+            <div class="top-style-middle">
+                <input style="height: 80%;width: 300px;font-size: 20px;">
+                <button style="height: 80%;font-size: 18px;border: none;width: 60px;">搜索</button>
+            </div>
+            <!-- 顶部栏右边 -->
+            <div class="top-style-right">
+                <div class="top-style-inner">
+                    <a>注册</a>    
+                </div>
+                <div class="top-style-inner">
+                    <a>登陆</a>    
+                </div>
+                <div class="top-style-inner">
+                    <a>头像</a>
+                </div>
+            </div>
         </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="content container mt-5 pt-3">
-        <!-- Landing Page Content -->
-<!--         <section id="introduction" class="text-center">
-            <h2>探索更多</h2>
-            <p>了解我的技能和项目，或联系我以获取更多信息。</p>
-            <img src="images/profile.jpg" alt="Profile Image" class="rounded-circle mb-3" style="width: 200px;">
-        </section>
-        
-        <section id="intro-links" class="row text-center">
-            <div class="col-md-4">
-                <h3>关于我</h3>
-                <p><a href="about.html" class="btn btn-outline-primary">了解更多</a></p>
+        <!-- 正文内容 -->
+        <Main>
+            <div>
+                <!-- 正文头部 -->
+                <div>
+                    <!-- 标题 -->
+                    <div>
+                        <h1>Welome to our Blog!</h1>
+                    </div>
+                    <!-- 作者、分类、修改时间等 -->
+                    <div>
+                        <!-- 作者 -->
+                        <a>作者</a>
+                        <!-- 时间 -->
+                        <span>发布于2024年12月9日</span>
+                    </div>
+                    <!-- 分类 -->
+                    <div>
+                        <span>分类</span>
+                        <!-- 这里用JavaScript动态生成？ -->
+                        <a>分类分类</a>
+                    </div>
+                </div>
+                <article>
+                    <div>
+                        <p>
+                            <a>目录目录</a>
+                        </p>
+                        <p>
+                            <h2>章节章节</h2>
+                        </p>
+                        <p>
+                            <span>内容内容</span>
+                        </p>
+                        <p>
+                            <span>内容内容内容</span>
+                        </p>
+                        <p>
+                            <span>内容内容内容内容</span>
+                        </p>
+                    </div>
+                </article>
+                <!-- 底部栏，主要写联系方式、版权等东西，如果有的话 -->
+                <div>
+                    <ul>
+                        <li>
+                            <a>关于我们</a>
+                        </li>
+                        <li>
+                            <a>商务合作</a>
+                        </li>
+                        <li>
+                            <a>电话</a>
+                        </li>
+                        <li>
+                            <a>邮箱</a>
+                        </li>
+                    </ul>  
+                    <ul>
+                        <li>
+                            <a>版权版权</a>
+                        </li>
+                        <li>
+                            <a>说明说明</a>
+                        </li>
+                        <li>
+                            <a>链接链接</a>
+                        </li>
+                    </ul>  
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>我的技能</h3>
-                <p><a href="skills.html" class="btn btn-outline-primary">查看技能</a></p>
+        </Main>
+        <!-- 侧边栏 -->
+        <aside>
+            <div class="aside-right">
+                <div>
+                    <h3>目录</h3>
+                    <div>
+                        <ol>
+                            <li>
+                                <a>1、什么什么</a>
+                            </li>
+                            <li>
+                                <a>2、为什么为什么</a>
+                            </li>
+                            <li>
+                                <ol>
+                                    <li>
+                                        <a>2.1、因为</a>
+                                    </li>
+                                    <li>
+                                        <a>2.2、因为因为</a>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                </div>    
             </div>
-            <div class="col-md-4">
-                <h3>项目案例</h3>
-                <p><a href="#" class="btn btn-outline-primary">浏览项目</a></p>
+            <div class="aside-left">
+                <h3>热门文章</h3>
+                <ul>
+                    <li>
+                        <a>热门</a>
+                    </li>
+                    <li>
+                        <a>热门热门</a>
+                    </li>
+                    <li>
+                        <a>热门热门热门</a>
+                    </li>
+                </ul>
             </div>
-        </section> -->
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white text-center py-2">
-        <p>联系我：<a class="text-white" href="">我的博客</a></p>
-    </footer>
-
-    
-</body>
+        </aside>
+    </body> 
 </html>
