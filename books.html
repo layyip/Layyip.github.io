@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <div id="booklist"></div>
+
+    <script>
+        const booklist = document.getElementById('booklist');
+        
+        fetch("./booklist.json")
+            .then(response => response.json())
+            .then(data => {
+                // const container = document.getElementById("booklist");
+                data.assets.forEach(file => {
+                const li = document.createElement("li");
+                li.textContent = file;
+                booklist.appendChild(li);
+                });
+            });
+
+    </script>
+</body>
+</html>
