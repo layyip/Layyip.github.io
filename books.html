@@ -6,7 +6,11 @@
     <title>Books</title>
 </head>
 <body>
-    <div id="booklist"></div>
+    <div>
+        <ul id="booklist">
+
+        </ul>
+    </div>
 
     <script>
         const booklist = document.getElementById('booklist');
@@ -16,11 +20,17 @@
             .then(data => {
                 // const container = document.getElementById("booklist");
                 data.assets.forEach(file => {
-                const li = document.createElement("li");
-                li.textContent = file;
-                booklist.appendChild(li);
+                    const li = document.createElement("li");
+                    bookName = file.split('/')[2].split('.pdf')[0];
+                    // li.textContent = bookName;
+                    li.innerHTML = `<li><a href="#" onclick="window.open('${file}')">${bookName}</a></li>`;
+                    booklist.appendChild(li);
                 });
             });
+        
+        function openPDFInBrowser(fileUrl) {
+            window.open(fileUrl);
+        }
 
     </script>
 </body>

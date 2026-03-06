@@ -1,14 +1,13 @@
 {
   "assets": [
-    "assets/怎样解题 数学思维的新方法 (G•波利亚 (george polya)) (Z-Library).pdf",
-    "assets/Fourier Analysis An Introduction (Elias M. Stein, Rami Shakarchi) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "assets/傅立叶分析导论 (ELIAS M.STEIN RAMI SHAKARCHI著, 美]Eias M.Stein etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "assets/初等数学教程 - 代数 ([法] G.达尔布  朱广才) (Z-Library).pdf",
-    "assets/初等数学教程 几何 平面部分 (（法）阿达玛（Hadamard，J.）著；朱德祥译) (Z-Library).pdf",
-    "assets/初等数学教程 几何 立体部分 (（法）阿达玛（Hadamard，J.）著；朱德祥译) (Z-Library).pdf",
-    "assets/初等数学教程G.达尔布主编 (平面三角C.布尔勒) (G.达尔布、C.布尔勒) (Z-Library).pdf",
-    "assets/初等数学教程：平面几何 (J.阿达玛,朱德祥) (Z-Library).pdf",
-    "assets/初等数学教程：立体几何 (J.阿达玛,朱德祥) (Z-Library).pdf",
-    "assets/线性代数 (Steven J. Leon (利昂)) (Z-Library).pdf"
+    "./assets/Fourier Analysis An Introduction (Elias M. Stein, Rami Shakarchi) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "./assets/傅立叶分析导论 (ELIAS M.STEIN RAMI SHAKARCHI著, 美]Eias M.Stein etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "./assets/初等数学教程 - 代数 ([法] G.达尔布  朱广才) (Z-Library).pdf",
+    "./assets/初等数学教程 几何 平面部分 (（法）阿达玛（Hadamard，J.）著；朱德祥译) (Z-Library).pdf",
+    "./assets/初等数学教程 几何 立体部分 (（法）阿达玛（Hadamard，J.）著；朱德祥译) (Z-Library).pdf",
+    "./assets/初等数学教程G.达尔布主编 (平面三角C.布尔勒) (G.达尔布、C.布尔勒) (Z-Library).pdf",
+    "./assets/初等数学教程：平面几何 (J.阿达玛,朱德祥) (Z-Library).pdf",
+    "./assets/初等数学教程：立体几何 (J.阿达玛,朱德祥) (Z-Library).pdf",
+    "./assets/线性代数 (Steven J. Leon (利昂)) (Z-Library).pdf"
   ]
 }
